@@ -11,3 +11,45 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
+header{
+	background-image: url("img/banner1.jpg");
+	min-height:800px; 
+	padding-top: 10em;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin:0;
+}
+header h2{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	padding: 0;
+
+}
+nav{
+	display: flex;
+	flex-direction: row;
+	background-color: #424242;
+
+}
+.img-cv{
+	width: 30%;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0;
+}
+nav ul li{
+	list-style-type: none;
+	padding: 1em;
+
+}
