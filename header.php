@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
 
     <?php wp_head(); ?>
 </head>
@@ -16,6 +18,9 @@
     	<img class="rounded-circle mx-auto d-block" src="http://philippelubrano.com/wp-content/uploads/2016/02/logo-1.png">
     	<h1>Philippe Lubrano</h1>
     	<h2>Dévelopeur web</h2>
+    	<i class="fas fa-angle-double-down rounded-circle mx-auto d-block"></i>
+    	
+    	
 
     </header>
     <nav>

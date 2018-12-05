@@ -33,11 +33,27 @@ header h2{
 	padding: 0;
 
 }
+header img.rounded-circle{
+	border: 10px solid rgba(255, 255, 255, .5);
+
+}
+
+.fa-angle-double-down{
+	color: white;
+    font-size: 2em;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: rgba(255,255,255,.3) 2px solid;
+    background: rgba(255,255,255,.1);
+    line-height: 75px;
+}
+
+
 nav{
 	display: flex;
 	flex-direction: row;
 	background-color: #424242;
-
 }
 .img-cv{
 	width: 30%;
