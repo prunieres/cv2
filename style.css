@@ -13,6 +13,7 @@
 */
 header{
 	background-image: url("img/banner1.jpg");
+	background-position: center;
 	min-height:800px; 
 	padding-top: 10em;
 }
@@ -54,9 +55,8 @@ nav{
 	display: flex;
 	flex-direction: row;
 	background-color: #424242;
-}
-.img-cv{
-	width: 30%;
+
+
 }
 
 nav ul{
@@ -66,6 +66,68 @@ nav ul{
 }
 nav ul li{
 	list-style-type: none;
-	padding: 1em;
+	
 
 }
+nav ul li a {
+	color: white;
+	padding: 2em 1em;
+	height: 100px;
+	display: inline-block;
+}
+nav ul li a:hover, nav ul li a:active{
+	background-color: #353535;
+	color: #fc6f5c;
+	text-decoration: none;
+
+}
+
+.img-cv {
+	width: 30%;
+	text-align: center;
+}
+.img-cv img{
+	padding-top: 2em;
+}
+
+
+/*----------------------------------------ABOUT*/
+.about{
+	display: flex;padding-top: 5em;
+}
+
+
+img.alignleft {
+	width: 300px;
+	height:300px;
+	margin-right: 8em;
+}
+
+
+div.container:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1){
+	display: none;
+}
+.aside h2 {
+	background-color: #fc6f5c;
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	padding: 0 0.3em;
+	border-radius: 5px;
+
+}
+.aside h3 {
+	background-color: #5c5c5c;
+	display: inline-block;
+	color: white;
+	padding: 1.2em 8em 1.2em 1em;
+	border-radius: 5px;
+}
+
+
+
+
+
+

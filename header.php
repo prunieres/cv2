@@ -30,9 +30,13 @@
     	</div>
     	<ul>
     		<li><a href="#">Home</a></li>
-    		<li><a href="#">About</a></li>
-    		<li><a href="#">Competences</a></li>
-    		<li><a href="#">Experiences</a></li>
+    		<li><a href="#">ABOUT ME</a></li>
+    		<li><a href="#">COMPETENCES</a></li>
+    		<li><a href="#">EXPERIENCE</a></li>
+            <li><a href="#">EDUCATION</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">CURRICULUM VITAE</a></li>
+            <li><a href="#">CONTACT</a></li>
     	</ul>
     </nav>
 
